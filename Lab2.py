@@ -10,8 +10,10 @@ def get_user_input():
     str_list = user_input.split(',')
 
     # 3. Convert the list of strings to a list of floats
-    
-
+    float_list = []
+    for num_str in str_list:
+        float_list.append(float(num_str))
+    return float_list
     # 4. Return the list of floats
     
 
